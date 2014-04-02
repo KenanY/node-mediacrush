@@ -51,4 +51,10 @@ var mediacrush = require('mediacrush');
 
 ### mediacrush.getInfo(hash, callback)
 
+Gets information on _String_ `hash` from Mediacrush and calls
+`callback(error, response)`.
+
 ### mediacrush.uploadURL(url, callback)
+
+Uploads the image found at _String_ `url` to Mediacrush and calls
+`callback(error, response)`.
