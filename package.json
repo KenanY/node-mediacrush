@@ -1,6 +1,6 @@
 {
   "name": "mediacrush",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Mediacrush API wrapper",
   "keywords": [],
   "repository": "KenanY/node-mediacrush",
