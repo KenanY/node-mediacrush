@@ -1,0 +1,26 @@
+{
+  "9j3rsdvImAhb": {
+    "blob_type": "image",
+    "compression": 1,
+    "extras": [],
+    "files": [
+      {
+        "file": "/9j3rsdvImAhb.jpe",
+        "type": "image/jpeg",
+        "url": "https://cdn.mediacru.sh/9j3rsdvImAhb.jpe"
+      },
+      {
+        "file": "/9j3rsdvImAhb.jpg",
+        "type": "image/jpeg",
+        "url": "https://cdn.mediacru.sh/9j3rsdvImAhb.jpg"
+      }
+    ],
+    "flags": {},
+    "hash": "9j3rsdvImAhb",
+    "metadata": null,
+    "original": "/9j3rsdvImAhb.jpe",
+    "type": "image/jpeg"
+  },
+  "error": 409,
+  "hash": "9j3rsdvImAhb"
+}
