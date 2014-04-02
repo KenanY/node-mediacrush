@@ -26,12 +26,14 @@ function collector(req, callback) {
   }));
 }
 
-function getInfo(hashes, callback) {
-  if (!isArray(hashes)) {
-    return jsonist.get(ENDPOINT + hashes, callback);
+function getInfo(hash, callback) {
+  // A single hash
+  if (!isArray(hash)) {
+    return jsonist.get(ENDPOINT + hash, callback);
   }
 
-  jsonist.get(ENDPOINT + hashes.join(','), callback);
+  // Multiple hashes
+  jsonist.get(ENDPOINT + 'info?list=' + hash.join(','), callback);
 }
 
 function uploadURL(url, callback) {
