@@ -1,7 +1,7 @@
 {
   "name": "mediacrush",
   "version": "0.0.1",
-  "description": "Mediacrush API wrapper",
+  "description": "MediaCrush API wrapper",
   "keywords": [],
   "repository": "KenanY/node-mediacrush",
   "license": "MIT",
