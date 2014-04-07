@@ -15,7 +15,9 @@
         "url": "https://cdn.mediacru.sh/9j3rsdvImAhb.jpg"
       }
     ],
-    "flags": {},
+    "flags": {
+      "nsfw": false
+    },
     "hash": "9j3rsdvImAhb",
     "metadata": null,
     "original": "/9j3rsdvImAhb.jpe",
