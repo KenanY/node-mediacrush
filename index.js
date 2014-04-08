@@ -26,6 +26,12 @@ function collector(req, callback) {
   }));
 }
 
+function createAlbum(hashes, callback) {
+  var stream = hyperquest.post(ENDPOINT + 'album/create', {headers: HEADERS});
+  collector(stream, callback);
+  stream.end(querystring.stringify({list: hashes.join(',')}));
+}
+
 function getInfo(hash, callback) {
   // A single hash
   if (!isArray(hash)) {
@@ -43,6 +49,7 @@ function uploadURL(url, callback) {
 }
 
 var mediacrush = {};
+mediacrush.createAlbum = createAlbum;
 mediacrush.getInfo = getInfo;
 mediacrush.uploadURL = uploadURL;
 

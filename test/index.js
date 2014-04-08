@@ -1,5 +1,13 @@
 var mediacrush = require('../');
 var test = require('tape');
+var has = require('lodash.has');
+
+test('createAlbum', function(t) {
+  t.plan(1);
+  mediacrush.createAlbum(['kmopZLGFVRYs', '9j3rsdvImAhb'], function(error, data) {
+    t.ok(has(data, 'hash'));
+  });
+});
 
 test('getInfo', function(t) {
   t.plan(1);
