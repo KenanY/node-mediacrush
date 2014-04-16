@@ -2,7 +2,11 @@
   "name": "mediacrush",
   "version": "0.1.0",
   "description": "MediaCrush API wrapper",
-  "keywords": [],
+  "keywords": [
+    "mediacrush",
+    "image",
+    "api"
+  ],
   "repository": "KenanY/node-mediacrush",
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
