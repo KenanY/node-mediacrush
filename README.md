@@ -7,7 +7,7 @@ MediaCrush API wrapper.
 ``` javascript
 var mediacrush = require('mediacrush');
 
-mediacrush.getInfo('kmopZLGFVRYs', function (error, data) {
+mediacrush.getInfo('kmopZLGFVRYs', function(error, data) {
   if (error) {
     throw error;
   }
