@@ -12,28 +12,28 @@ mediacrush.getInfo('kmopZLGFVRYs', function(error, data) {
     throw error;
   }
 
-  //=> {
-  //=>   "blob_type": "image",
-  //=>   "compression": 1,
-  //=>   "extras": [],
-  //=>   "files": [
-  //=>     {
-  //=>       "file": "/kmopZLGFVRYs.png",
-  //=>       "type": "image/png",
-  //=>       "url": "https://cdn.mediacru.sh/kmopZLGFVRYs.png"
-  //=>     }
-  //=>   ],
-  //=>   "flags": {},
-  //=>   "hash": "kmopZLGFVRYs",
-  //=>   "metadata": {
-  //=>     "dimensions": {
-  //=>       "height": 2000,
-  //=>       "width": 2000
-  //=>     }
-  //=>   },
-  //=>   "original": "/kmopZLGFVRYs.png",
-  //=>   "type": "image/png"
-  //=> }
+  // => {
+  // =>   "blob_type": "image",
+  // =>   "compression": 1,
+  // =>   "extras": [],
+  // =>   "files": [
+  // =>     {
+  // =>       "file": "/kmopZLGFVRYs.png",
+  // =>       "type": "image/png",
+  // =>       "url": "https://cdn.mediacru.sh/kmopZLGFVRYs.png"
+  // =>     }
+  // =>   ],
+  // =>   "flags": {},
+  // =>   "hash": "kmopZLGFVRYs",
+  // =>   "metadata": {
+  // =>     "dimensions": {
+  // =>       "height": 2000,
+  // =>       "width": 2000
+  // =>     }
+  // =>   },
+  // =>   "original": "/kmopZLGFVRYs.png",
+  // =>   "type": "image/png"
+  // => }
 });
 ```
 
