@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "concat-stream": "^1.4.4",
-    "hyperquest": "^0.2.0",
+    "hyperquest": "^0.3.0",
     "jsonist": "^0.1.1",
     "lodash.isarray": "^2.4.1"
   },
