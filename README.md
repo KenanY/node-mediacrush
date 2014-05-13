@@ -1,5 +1,7 @@
 # node-mediacrush
 
+[![Build Status](https://travis-ci.org/KenanY/node-mediacrush.svg?branch=master)](https://travis-ci.org/KenanY/node-mediacrush)
+
 MediaCrush API wrapper.
 
 ## Example
