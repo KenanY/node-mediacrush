@@ -1,6 +1,7 @@
 # node-mediacrush
 
 [![Build Status](https://travis-ci.org/KenanY/node-mediacrush.svg?branch=master)](https://travis-ci.org/KenanY/node-mediacrush)
+[![Dependency Status](https://gemnasium.com/KenanY/node-mediacrush.svg)](https://gemnasium.com/KenanY/node-mediacrush)
 
 MediaCrush API wrapper.
 
