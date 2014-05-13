@@ -49,7 +49,7 @@ $ npm install mediacrush
 var mediacrush = require('mediacrush');
 ```
 
-### mediacrush.uploadURL(hashes, callback)
+### mediacrush.createAlbum(hashes, callback)
 
 Takes an _Array_ of MediaCrush `hashes` and groups them into an album on
 MediaCrush. Calls `callback(error, response)` when response returns.
