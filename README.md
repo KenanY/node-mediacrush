@@ -62,6 +62,11 @@ MediaCrush. Calls `callback(error, response)` when response returns.
 Gets information on _String_ or _Array_ `hash` from MediaCrush and calls
 `callback(error, response)`.
 
+### mediacrush.urlInfo(urls, callback)
+
+Accepts and _Array_ of `urls` previously uploaded to MediaCrush. Calls
+`callback(error, response)` when response returns.
+
 ### mediacrush.uploadURL(url, callback)
 
 Uploads the image found at _String_ `url` to MediaCrush and calls

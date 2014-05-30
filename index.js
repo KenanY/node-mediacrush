@@ -42,6 +42,12 @@ function getInfo(hash, callback) {
   jsonist.get(ENDPOINT + 'info?list=' + hash.join(','), callback);
 }
 
+function urlInfo(urls, callback) {
+  var stream = hyperquest.post(ENDPOINT + 'url/info', {headers: HEADERS});
+  collector(stream, callback);
+  stream.end(querystring.stringify({list: urls.join(',')}));
+}
+
 function uploadURL(url, callback) {
   var stream = hyperquest.post(ENDPOINT + 'upload/url', {headers: HEADERS});
   collector(stream, callback);
@@ -52,5 +58,6 @@ var mediacrush = {};
 mediacrush.createAlbum = createAlbum;
 mediacrush.getInfo = getInfo;
 mediacrush.uploadURL = uploadURL;
+mediacrush.urlInfo = urlInfo
 
 module.exports = mediacrush;
