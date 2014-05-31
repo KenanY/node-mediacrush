@@ -3,9 +3,9 @@
   "version": "0.1.2",
   "description": "MediaCrush API wrapper",
   "keywords": [
-    "mediacrush",
+    "api",
     "image",
-    "api"
+    "mediacrush"
   ],
   "repository": "KenanY/node-mediacrush",
   "license": "MIT",
