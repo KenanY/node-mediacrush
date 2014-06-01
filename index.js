@@ -58,6 +58,6 @@ var mediacrush = {};
 mediacrush.createAlbum = createAlbum;
 mediacrush.getInfo = getInfo;
 mediacrush.uploadURL = uploadURL;
-mediacrush.urlInfo = urlInfo
+mediacrush.urlInfo = urlInfo;
 
 module.exports = mediacrush;
